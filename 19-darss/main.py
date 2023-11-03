@@ -19,7 +19,7 @@ class Talaba(Shaxs):
         return self.id
     
     def info(self):
-        info = f"ism: {self.ism}, familiyasi: {self.familiya}, o_yili: {self.o_yili}, o_tyili: {self.o_tyili}, id raqami: {self.id}, manzili: {self.manzil}"
+        info = f"ism: {self.ism}, familiyasi: {self.familiya}, o_yili: {self.o_yili}, o_tyili: {self.o_tyili}, id raqami: {self.id}"
         return info
     
 class Manzil:
@@ -46,6 +46,3 @@ print(talaba1.info())
 print(f"Manzili: {talaba1.manzil.manzil_info()}")
 print(f"nechta tilni bilasiz: {tili.rus_tili}")
 print(f"nechta tilni bilasiz: {tili.ingliz_tili}")
-
-
-    
